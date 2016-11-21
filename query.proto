@@ -1,0 +1,10 @@
+package muduo;
+
+message Query {
+  optional int64 id = 1;
+  optional string questioner = 2;
+
+  optional string question = 3;
+}
+
+
